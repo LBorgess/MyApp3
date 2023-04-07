@@ -39,17 +39,19 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getItemId()) {
                     case R.id.mFavorito:
-
                         // Abrindo a janela do BottomMenuBar
                         startActivity(new Intent(getApplicationContext(), BottomNavActivity.class));
+                        break;
 
-                        break;
                     case R.id.mCompartilhar:
-                        Toast.makeText(getApplicationContext(), "Cliquei no compartilhar", Toast.LENGTH_SHORT).show();
+                        // Abrindo a janela do BottomNavigation
+                        startActivity(new Intent(getApplicationContext(), BottomNavigationActivity.class));
                         break;
+
                     case R.id.mPesquisar:
                         Toast.makeText(getApplicationContext(), "Cliquei no pesquisar", Toast.LENGTH_SHORT).show();
                         break;
+
                     case R.id.mNotificacao:
                         Toast.makeText(getApplicationContext(), "Cliquei nas notificações ", Toast.LENGTH_SHORT).show();
                         break;
