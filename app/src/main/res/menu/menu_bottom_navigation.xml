@@ -9,7 +9,7 @@
         android:icon="@drawable/baseline_music"
         android:title="Music" />
     <item
-        android:id="@+id/mPlace"
+        android:id="@+id/mNavPlace"
         android:icon="@drawable/baseline_place"
         android:title="Place" />
     <item
